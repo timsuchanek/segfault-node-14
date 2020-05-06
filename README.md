@@ -1,5 +1,5 @@
 # segfault-node-14
-Reproduction of a segfault in Node 14 using `worker_threads`, `transferList` and `unref`.
+Reproduction of a segfault in Node 14 using `worker_threads`, `transferList` and `worker.unref`.
 
 ## Reproduction
 ```
