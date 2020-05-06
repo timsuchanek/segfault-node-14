@@ -28,3 +28,4 @@ Target 0: (node) stopped.
 ## Observations
 1. If I don't provide the second argument to `postMessage`, the `transferList`, it doesn't crash.
 2. If I don't call `unref` on the worker, it also doens't crash.
+3. This works fine in Node 13 and lower.
